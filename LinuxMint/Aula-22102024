@@ -1,0 +1,51 @@
+Aula 22102024
+
+$ = Usuário comum;
+# = Usuário Root.
+~ = (Alias) Diretório Home
+------------------------------------------------------
+‌pwd: mostrar seu diretório atual (Site Guia Foca)
+‌ls: lista arquivos e diretórios no Linux (Site Guia Foca)
+ls -l: lista em ordem alfabética 
+ls -lh: lista em ordem alfabética em números inteiros 
+ls -lha: mostrar tudo nas listas 
+tudo que começar com (.) pode ser arquivo ou diretório (Oculto)
+‌cd: mudar de diretório (Site Guia Foca)
+cd /: muda a localização 
+‌/ = root (raiz)
+
+Azul escuro - diretório 
+Cinza - Arquivos 
+Azul claro - Link símbolo (Atalho)
+Marca texto verde - diretório temporário PERIGO
+
+‌cd ~: voltar para Home
+‌cd -: volta uma vez
+
+‌mkdir: o que cria diretórios
+
+help - ajuda
+man - manual de ajuda
+
+caminho relativo - é dinâmico pode mudar
+caminho absoluto - é caminho fixo
+
+Tab - auto preenchimento 
+
+mkdir -v TAT PEN CAS 
+(-v): mostra o diretório que foi criado
+
+cd /: subir o nivel
+cd ..: descer o nivel
+cd ~/: saí da raiz para ir há outro diretório 
+cd ../../: mesclar os diretórios que eu quero voltar
+
+echo: imprimi na tela
+Canivete Suíço do Shall (Site)
+
+= redireciona saída padrão 
+
+touch: cria o arquivo, altera a data e a hora
+
+git clone: clona
+git config: configurando Github
