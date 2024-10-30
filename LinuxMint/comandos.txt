@@ -1,0 +1,359 @@
+    1  sudo
+    2  sudo t
+    3  sudo -i
+    4  sudo apt update 
+    5  sudo apt upgrade 
+    6  sudo apt full-upgrade 
+    7  sudo apt dist-upgrade 
+    8  sudo apt autoremove 
+    9  sudo apt autoclean 
+   10  history 
+   11  sudo reboot
+   12  sudo apt autoremove 
+   13  sudo apt autoclean 
+   14  sudo apt update 
+   15  sudo apt install git vim kolourpaint 
+   16  sudo poweroff 
+   17  sudo apt update
+   18  sudo apt upgrade
+   19  pwd
+   20  ls
+   21  ls -l
+   22  ls -lh
+   23  ls -lha
+   24  cd
+   25  cp/
+   26  cd /
+   27  pwd
+   28  ls
+   29  ls -lha
+   30  cd ~
+   31  ls
+   32  pwd
+   33  cd -
+   34  pwd
+   35  cd -
+   36  ls
+   37  ls -lh
+   38  mkdir
+   39  mkdir --help
+   40  man mkdir
+   41  mkdir SENAC
+   42  LS
+   43  ls
+   44  mkdir senac
+   45  ls
+   46  cd SENAC/
+   47  pwd
+   48  cd /
+   49  cd /home/mauricio/SENAC/
+   50  cd /
+   51  cd ~/SENAC/
+   52  mkdir -v TAT PEN CAS
+   53  pwd
+   54  cd TAT/
+   55  pwd
+   56  mkdir -v TEI TST
+   57  cd TEI/
+   58  pwd
+   59  cd ..
+   60  pwd
+   61  cd ..
+   62  pwd
+   63  cd TEI/
+   64  cd ~/SENAC/TAT/TEI/
+   65  cd ../../PEN/
+   66  mkdir -v TEI TST
+   67  cd TEI/
+   68  ls- lh
+   69  ls -lh
+   70  ls -lha
+   71  echo
+   72  echo SENAC Tatuapé
+   73  echo "SENAC Tatuapé"
+   74  ls -lha
+   75  echo "SENAC Tatuapé Técnico em informática"
+   76  echo "SENAC Tatuapé Técnico em informática" > test.txt
+   77  ls
+   78  ls -lha
+   79  echo "Mauricio Afonso" > test01.txt
+   80  ls -lha
+   81  touch
+   82  echo > senac.txt
+   83  ls -lha
+   84  touch sesc.txt
+   85  ls -lh
+   86  touch sesc.txt
+   87  echo Tatuapé > senac.txt 
+   88  ls -lh
+   89  echo Penha > senac.txt 
+   90  ls -lh
+   91  history
+   92  git
+   93  git clone https://github.com/Mauri902/senac-tat 
+   94  ls
+   95  cd senac-tat/
+   96  pwd
+   97  ls -lha
+   98  git config --global user.name "Mauricio Afonso"
+   99  git config --global user.email mauricio.afonso16@gmail.com
+  100  git config --list
+  101  sudo init 0
+  102  sudo apt update
+  103  sudo apt upgrade
+  104  ls -lh
+  105  cd SENAC/
+  106  cd TAT/
+  107  cd TEI/
+  108  touch senac.txt senai.txt sesc.txt
+  109  ls -lha
+  110  echo "Tatuapé" > senac.txt 
+  111  echo "Guarulhos" > senai.txt 
+  112  echo "Santana" > sesc.txt 
+  113  lh -lha
+  114  ls -lha
+  115  cat senai.txt 
+  116  cat -n senai.txt
+  117  echo "Vila Maria" > senai.txt
+  118  cat senai.txt 
+  119  echo "Vila Maria
+  120  cd SENAC/TAT/TCT/
+  121  cd SENAC/
+  122  cd TAT/
+  123  cd TEI/
+  124  echo "Itaquera" >> senai.txt 
+  125  cat senai.txt 
+  126  echo "Brás" >> senai.txt 
+  127  cat -n senai.txt 
+  128  tac senai.txt 
+  129  tac -n senai.txt Objetivo da aula de hoje: 24/10/2024 (CONTINUAÇÃO)
+  130  a) DEIXAR LOGADO OS SITES: GITHUB E CHATGPT
+  131  b) DEIXAR ABERTO OS SITES: GUIA FOCA, SS64 E AURELIO.NET
+  132  a) VOCÊ PODE USAR O: MintUpdate (Modo Gráfico)
+  133  b) VOCÊ PODE USAR O: Terminal (Ctrl+Alt+T) e o comando: apt
+  134  a) CONTINUAÇÃO DOS COMANDOS BÁSICOS DE ARQUIVOS/DIRETÓRIOS
+  135  BASH SHELL Básico com o Linux Mint 19.1 Tessa
+  136  https://www.youtube.com/watch?v=xs1zGEBf-wc
+  137  	pwd:	https://www.guiafoca.org/guiaonline/inicianteintermediario/ch08s03.html
+  138  	
+  139  	ls: https://www.guiafoca.org/guiaonline/inicianteintermediario/ch08.html#comando-ls
+  140  	
+  141  	ls -lha
+  142  	. (ponto) Arquivos ou Diretório (Oculto)
+  143  	
+  144  	cd: https://www.guiafoca.org/guiaonline/inicianteintermediario/ch08s02.html
+  145  	
+  146  	/	 =	Root (Raiz)
+  147  	cd ~ =	voltar para a home
+  148  	cd - =	voltar uma vez
+  149  	
+  150  	mkdir: 
+  151  	https://www.guiafoca.org/guiaonline/inicianteintermediario/ch08s04.html
+  152  	
+  153  	ajuda: help
+  154  	ajuda: man
+  155  	
+  156  	cd / 		=	subir o nível
+  157  	cd ..		=	descer um nível
+  158  	cd ~/SENAC	=	acessar o diretório SENAC
+  159  	cd ../../ 	= 	descer nível por nível
+  160  	https://aurelio.net/shell/canivete/
+  161  	
+  162  	> 	=	Redirecionar a saída padrão
+  163  	echo	Imprimir na tela https://www.guiafoca.org/guiaonline/inicianteintermediario/ch10s20.html
+  164  	
+  165  	echo Tatuapé > senac.txt 
+  166  	echo Penha > senac.txt 
+  167  	
+  168  	touch:
+  169  	https://www.guiafoca.org/guiaonline/inicianteintermediario/ch10s16.html
+  170  a) CONTINUAÇÃO DOS COMANDOS BÁSICOS DE GIT E GITHUB
+  171  GIT e GITHUB Básico com o Linux Mint 19.1 Tessa
+  172  https://www.youtube.com/watch?v=hrmqRD2k5P0
+  173  BÁSICO do BÁSICO de Git e Github utilizando o Linux Mint 20.3 Una x64
+  174  https://www.youtube.com/watch?v=JDCYyjbrJu0
+  175  Configuração e Integração do Git e Github com o VSCode no GNU/Linux (Linux Mint 22) e Windows 10 
+  176  https://www.youtube.com/watch?v=VBxmsmPK60s
+  177  	
+  178  	https://git-scm.com/docs/git-clone
+  179  	git clone	(Clonar Repositórios)
+  180  	
+  181  	https://git-scm.com/docs/git-config
+  182  	git config	(Configurar o Git Local)
+  183  	git config --global user.name	SEU_USUÁRIO
+  184  	git config --global user.email	SEU_EMAIL
+  185  cat -n senai.txt | tac
+  186  tail /etc/services 
+  187  s 
+  188  tail -n3 /etc/services 
+  189  head -n3 /etc/services 
+  190  cat -n /etc/services | head 
+  191  cat -n3 /etc/services | head 
+  192  cat -n3 | heat -n3 /etc/services 
+  193  cat -n3 /et | head -n3 /etc/services 
+  194  cat -n /etc/services | head -n3
+  195  cat -n100 /etc/services | tail -n200
+  196  cat -n /etc/services | head -n100 |tail -n200
+  197  cat -n /etc/services | head -n200 |tail -n300
+  198  cat -n100 /etc/services | head -n200 |tail -n300
+  199  cat -n100 /etc/services | |tail -n300
+  200  cat -n /etc/services | tail -n200 | tail -n300
+  201  cat -n /etc/services | tail -n300
+  202  cat -n /etc/services | head -n200 |tail -n300
+  203  cat -n /etc/services | head -n250 |tail -n300
+  204  cat -n /etc/services | head -n200 |tail -n100
+  205  cat -n /etc/services | head -n200 |tail -n099
+  206  cat -n /etc/services | head -n200 |tail -n101
+  207  cat -n /etc/services | head -n200 |tail -n101 | less
+  208  cat -n /etc/services | head -n200 |tail -n101 > vava.txt
+  209  ls -lh
+  210  cat -n vava.txt 
+  211  less vava.txt 
+  212  cp vav.txt ramos.txt
+  213  cp vava.txt ramos.txt
+  214  ls -lh
+  215  cp -v ramos.txt senai.txt
+  216  cd SENAC/
+  217  TAT/
+  218  cd TAT/
+  219  cd TEI/
+  220  cp -v ramos.txt senai.txt
+  221  ls -lh ../
+  222  ls -lh ../../
+  223  cp vava.txt ramos.txt ../../PEN/
+  224  la -lh ../../PEN/
+  225  mkdir -v BKP
+  226  ls -lh
+  227  cp -v *.txt > BKP/
+  228  cp -v *.txt BKP/
+  229  mv -v vava.txt vaamonde.md
+  230  ls -lh
+  231  mv -v ramos.txt ../TST/leandro.md
+  232  ls -lh
+  233  rm -v sesc.txt 
+  234  cd ../
+  235  rm -v TEI
+  236  rm -Rv TST/
+  237  rm -Rfv TST/
+  238  sudo dpkg -i code_1.94.2-1728494015_amd64.deb 
+  239  sudo update
+  240  sudo apt update
+  241  sudo apt upgrade
+  242  cd help
+  243  mkdir Mauricio_Sena
+  244  lh
+  245  ls -lh
+  246  cd /Mauricio_Sena
+  247  cd Mauricio_Sena
+  248  mkdir SESC
+  249  ls -lh
+  250  cd SESC
+  251  mkdir -v BEL SAN ITA
+  252  cd BEL
+  253  touch danca.txt
+  254  ls
+  255  	echo BEL >> Danças Brasileiras Danças de Salão
+  256  less
+  257  less -danca.txt
+  258  less danca.txt
+  259  tac danca.txt
+  260  ls -lh
+  261  rm Danças
+  262  ls -lh
+  263  echo danca.txt >> Danças Brasileiras Danças de Salão
+  264  ls
+  265  ls -lh
+  266  cat danca.txt
+  267  less danca.txt
+  268  less Danças
+  269  rm Danças
+  270  ls -lh
+  271  echo -v "Danças Brasileiras" > danca.txt
+  272  echo "Danças de Salão" >> danca.txt
+  273  less danca.txt
+  274  echo "Danças Brasileiras" > danca.txt
+  275  echo "Danças de Salão" >> danca.txt
+  276  less danca.txt
+  277  cd ../
+  278  cd SAN
+  279  touch natacao.md
+  280  echo "Crawl" > natacao.md
+  281  echo "Peito" >> natacao.md
+  282  echo "Costas" >> natacao.md
+  283  echo "Borboleta" >> natacao.md
+  284  less natacao.md
+  285  cd ../
+  286  cd ITA
+  287  touch capoeira.sh
+  288  ls
+  289  echo -e "Meia Lua de Frente\nMeia Lua de Compasso\nPisão Rodado" > capoeira.sh
+  290  less capoeira.sh 
+  291  cd ../../../
+  292  cd Mauricio_Sena/
+  293  mkdir SENAI
+  294  cd SENAI/
+  295  mkdir BRA GUA TAT PJS
+  296  ls -lh
+  297  cd BRA
+  298  mkdir Torneira Fresagem Soldagem
+  299  cd ../
+  300  cd GUA
+  301  mkdir Eletricidade
+  302  ls -lh
+  303  cd ../
+  304  cd TAT
+  305* 
+  306  ls -lh
+  307  cd ../
+  308  cd PJS
+  309  mkdir Empilhadeira
+  310  cd ../
+  311  cd BRA
+  312  cd Torneira/
+  313  touch cal_nov_2024.txt
+  314  echo "Turma A: 01/11 até 30/11" > cal_nov_2024.txt
+  315  less cal_nov_2024.txt 
+  316  cd ../
+  317  cd Fresagem/
+  318  touch cal_dez_2024.txt
+  319  echo "Turma B: 01/12 até 31/12" > cal_dez_2024.txt
+  320  less cal_dez_2024.txt 
+  321  cd ../
+  322  cd Soldagem/
+  323  touch cal_jan_2024.txt
+  324  echo "Turma C: 01/01 até 31/01" > cal_jan_2024.txt
+  325  less cal_jan_2024.txt 
+  326* 
+  327  cd GUA/
+  328  cd Eletricidade/
+  329  touch cal_jan_2025.txt
+  330  echo "Turma A: 01/01 até 31/01" > cal_jan_2025.txt
+  331  less cal_jan_2025.txt 
+  332  cd ../../
+  333  cd BRA/Soldagem/
+  334  ls
+  335  cd ../../
+  336  cd TAT
+  337  cd Drywall/
+  338  touch cal_nov_2024.md
+  339  echo "Turma A: 01/11 até 30/11" > cal_nov_2024.md
+  340  less cal_nov_2024.md 
+  341  cd ../../
+  342  cd PJS/
+  343  cd Empilhadeira/
+  344  touch cal_jan_2025.sh
+  345  echo "Turma A: 01/01 até 31/01" > cal_jan_2025.sh
+  346  less cal_jan_2025.sh 
+  347  sudo apt install tree
+  348  tree -h Mauricio_Sena
+  349  cd ~
+  350  tree -h Mauricio_Sena
+  351  ls
+  352  tree -h Mauricio_Sena
+  353  mv SENAC/ Mauricio_Sena/
+  354  cd Mauricio_Sena/
+  355  ls
+  356  cd ~
+  357  tree -h Mauricio_Sena
+  358  history 
+  359  history > comandos.txt
